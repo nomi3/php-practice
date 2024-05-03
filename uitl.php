@@ -1,6 +1,10 @@
 <?php
-
-
+$sc = new Scanner();
+$a = $sc->nextInt();
+$b = $sc->nextInt();
+$c = $sc->nextInt();
+$s = $sc->next();
+out::println(($a + $b + $c) . " " . $s);
 class Scanner
 {
     private $arr = [];
